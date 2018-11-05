@@ -21,5 +21,6 @@ hist(gap_data, main = "Global Active Power",
      xlab = "Global Active Power (kilowatts)",
      ylab = "Frequency", ylim = c(0,1200), col = "red")
 
+# Step 3: Save the histogram plot to a PNG device.
 dev.copy(png,"plot1.png")
 dev.off()
